@@ -1,11 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import ViewBoxesWithColorAndText from './ViewBoxesWithColorAndText';
+import DisplayandImage from './DisplayandImage';
+import LotsOfGreeting from './LotsOfGreeting';
+import CustomText from './CustomText';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {/* <DisplayandImage/> */}
+      {/* <LotsOfGreeting/> */}
+      <CustomText/>
     </View>
   );
 }
