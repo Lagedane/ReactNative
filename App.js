@@ -4,13 +4,21 @@ import ViewBoxesWithColorAndText from './ViewBoxesWithColorAndText';
 import DisplayandImage from './DisplayandImage';
 import LotsOfGreeting from './LotsOfGreeting';
 import CustomText from './CustomText';
+import Counter from './Counter';
+import MyInput from './MyInput';
+import IncrementCounter from './IncrementCounter';
+import Form from './Form';
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <DisplayandImage/> */}
       {/* <LotsOfGreeting/> */}
-      <CustomText/>
+      {/* <CustomText/> */}
+      {/* {<Counter/>}   */}
+      {/* {<MyInput/>} */}
+      {/* {<IncrementCounter/>} */}
+      <Form/>
     </View>
   );
 }

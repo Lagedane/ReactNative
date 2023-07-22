@@ -6,7 +6,7 @@ const DisplayandImage = () => {
     <View style = {{flex:1,paddingTop:50}}>
       <Image
         style = {styles.tinyLogo}
-        source = {require('../assets/react_logo.png')}
+        source = {require('./assets/react_logo.png')}
       />
       <Image
         style = {{width: 50,height:50}}
