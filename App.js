@@ -1,13 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import ViewBoxesWithColorAndText from './ViewBoxesWithColorAndText';
-import DisplayandImage from './DisplayandImage';
-import LotsOfGreeting from './LotsOfGreeting';
-import CustomText from './CustomText';
-import Counter from './Counter';
-import MyInput from './MyInput';
-import IncrementCounter from './IncrementCounter';
-import Form from './Form';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import ViewBoxesWithColorAndText from "./ViewBoxesWithColorAndText";
+import DisplayandImage from "./DisplayandImage";
+import LotsOfGreeting from "./LotsOfGreeting";
+import CustomText from "./CustomText";
+import Counter from "./Counter";
+import MyInput from "./MyInput";
+import IncrementCounter from "./IncrementCounter";
+import Form from "./Form";
+import Login from "./Login";
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
       {/* {<Counter/>}   */}
       {/* {<MyInput/>} */}
       {/* {<IncrementCounter/>} */}
-      <Form/>
+      {/* <Form /> */}
+      <Login/>
     </View>
   );
 }
@@ -26,8 +28,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

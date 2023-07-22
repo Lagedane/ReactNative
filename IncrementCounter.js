@@ -9,7 +9,9 @@ const IncrementCounter = () => {
 
   return (
     <View>
-      <Text style={{ fontSize: 24, fontStyle: "bold" }}>Your age: {age} {"\n\n"}</Text>
+      <Text style={{ fontSize: 24, fontStyle: "bold" }}>
+        Your age: {age} {"\n\n"}
+      </Text>
       <Button
         title="+3"
         onPress={() => {
