@@ -26,7 +26,7 @@ export default function App() {
       {/* <Login/> */}
       {/* {<RandomUserScreen />} */}
       {/* {<FlatList_Example1/>} */}
-      {<FlatList_HeaderFooter/>}
+      {<FlatList_HeaderFooter/>} 
     </View>
   );
 }
