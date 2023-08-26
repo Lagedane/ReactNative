@@ -12,6 +12,8 @@ import Login from "./Login";
 import RandomUserScreen from "./RandomUserScreen";
 import FlatList_Example1 from "./FlatList_Example1";
 import FlatList_HeaderFooter from "./FlatList_HeaderFooter";
+import FlatListAPI from "./FlatListAPI";
+import News from "./News";
 
 export default function App() {
   return (
@@ -26,7 +28,9 @@ export default function App() {
       {/* <Login/> */}
       {/* {<RandomUserScreen />} */}
       {/* {<FlatList_Example1/>} */}
-      {<FlatList_HeaderFooter/>} 
+      {/* {<FlatList_HeaderFooter/>}  */}
+      {/* {<FlatListAPI/>} */}
+      {<News/>}
     </View>
   );
 }
